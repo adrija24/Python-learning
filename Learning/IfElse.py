@@ -11,6 +11,8 @@ if height >= 120:
     elif age <= 18:
         bill = 10
         print(f"Please pay {bill}Rs.")
+    elif age >= 45 and age <= 55:
+        print("Everything is going to be ok. Have a free ride on us.")
     else:
         bill = 20
         print(f"Please pay {bill}Rs.")
@@ -19,4 +21,4 @@ if height >= 120:
         bill += 3
         print(f"Your final bill is {bill}Rs")
 else:
-    print("Sorry! You can't ride the tollercoaster.")
+    print("Sorry! You can't ride the rollercoaster.")
