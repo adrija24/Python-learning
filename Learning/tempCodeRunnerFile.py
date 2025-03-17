@@ -1,2 +1,2 @@
-print(b[item])
-    # print(len(b[ite
+ge(0, len(questions)):
+#     print(questions[i][i])
